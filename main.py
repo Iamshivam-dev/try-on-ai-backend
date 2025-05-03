@@ -9,8 +9,9 @@ import logging
 app = FastAPI(debug=True)
 
 origins = [
-    "http://localhost",
-    "http://localhost:3000",
+    # "http://localhost",
+    # "http://localhost:3000",
+    "https://virtual-try-on-ai.netlify.app"
 ]
 
 app.add_middleware(
